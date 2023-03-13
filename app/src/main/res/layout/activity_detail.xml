@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar"
+                android:background="@color/red"
+                android:minHeight="?attr/actionBarSize"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp"
+                android:theme="@style/AppTheme">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/back_button"
+                        android:layout_width="48dp"
+                        android:layout_height="25dp"
+                        android:background="@null"
+                        android:contentDescription="@string/back_button"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/back_icon"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/ab_detail_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".50"
+                        android:fontFamily="@font/marvel"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="28sp" />
+
+                    <ImageButton
+                        android:id="@+id/action_share"
+                        android:layout_width="48dp"
+                        android:layout_height="25dp"
+                        android:background="@null"
+
+                        android:contentDescription="@string/back_button"
+                        android:rotation="-45"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/share_icon"
+                        app:tint="@color/white" />
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/tv_detail_photo"
+                    android:layout_gravity="center"
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="4dp"
+                    app:civ_border_width="4dp"
+                    app:civ_border_color="#959595"
+                    />
+                <TextView
+                    android:id="@+id/tv_detail_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/marvel"
+                    android:textSize="24sp"
+                    android:textAlignment="center"
+                    android:text="SpiderMan"
+                    />
+                <TextView
+                    android:id="@+id/tv_detail_real_name"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="16dp"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/mono"
+                    android:layout_height="wrap_content"
+                    android:textFontWeight="700"
+                    android:textSize="13sp"
+                    />
+                <TextView
+                    android:justificationMode="inter_word"
+                    android:id="@+id/tv_detail_description"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/mono"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</LinearLayout>

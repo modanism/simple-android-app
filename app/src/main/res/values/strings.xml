@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Avengers</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="back_button">Back Button</string>
+    <string name="empty_space">Empty Space</string>
+    <string name="about_me">about me</string>
+    <string name="about_name">Mochammad Ramadhany</string>
+    <string name="about_email">ramadhanymochammad@gmail.com</string>
+    <string name="home_title">Avengers</string>
+    <string-array name="data_name">
+        <item>Iron Man</item>
+        <item>Captain America</item>
+        <item>Thor</item>
+        <item>Hulk</item>
+        <item>Black WIdow</item>
+        <item>Captain Marvel</item>
+        <item>Scarlet Witch</item>
+        <item>Vision</item>
+        <item>Black Panther</item>
+        <item>Doctor Strange</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>a billionaire industrialist and genius inventor who created the Iron Man suit to save his own life after being kidnapped. He is the founding member of the Avengers and is known for his wit, technological savvy, and unwavering dedication to protecting the world from threats.</item>
+        <item>was a frail young man who underwent a government experiment to become the ultimate super-soldier. As Captain America, he fights for American ideals of justice, freedom, and the pursuit of happiness. He is a symbol of hope and inspiration for his fellow Avengers.</item>
+        <item>the Asgardian God of Thunder who is known for his incredible strength and lightning powers. He wields the mighty hammer Mjolnir and is a fierce warrior who defends his realm against all threats.</item>
+        <item>a brilliant scientist who was exposed to gamma radiation, which caused him to transform into the monstrous Hulk whenever he gets angry. The Hulk possesses incredible strength and durability, making him a valuable member of the Avengers.</item>
+        <item>a former KGB agent who was trained as an assassin. She later defected to the United States and became a member of the Avengers, where she uses her skills as a spy and hand-to-hand combatant to fight for justice.</item>
+        <item>a former Air Force pilot who gained superhuman abilities after being exposed to alien technology. As Captain Marvel, she possesses superhuman strength, speed, and durability, and can fly and project energy blasts. She is a fierce warrior who fights for justice and has been a valuable member of the Avengers, using her powers to defend the world against threats both on Earth and in space.</item>
+        <item>a powerful mutant who possesses reality-warping abilities. She can alter reality to her will and has been a valuable member of the Avengers, using her powers to fight for justice and defend the world against threats.</item>
+        <item>an android created by the villainous Ultron to destroy the Avengers. However, he later turned against his creator and joined the Avengers, using his superhuman strength and ability to phase through objects to fight for good.</item>
+        <item>the king of Wakanda, a fictional African nation with advanced technology and rich resources. As the Black Panther, he uses his superhuman strength, agility, and fighting skills to protect his people and the world from threats.</item>
+        <item>a brilliant surgeon who suffered a devastating accident that left him unable to use his hands. He later discovers the mystical arts and becomes the Sorcerer Supreme, using his magical abilities to protect the world from supernatural threats.</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/ironman</item>
+        <item>@drawable/captain_america</item>
+        <item>@drawable/thor</item>
+        <item>@drawable/hulk</item>
+        <item>@drawable/black_widow</item>
+        <item>@drawable/captain_marvel</item>
+        <item>@drawable/scarlet_witch</item>
+        <item>@drawable/vision</item>
+        <item>@drawable/black_panther</item>
+        <item>@drawable/dr_strange</item>
+    </integer-array>
+    <string-array name="real_name">
+        <item>Tony Stark</item>
+        <item>Steve Rogers</item>
+        <item>Thor Odinson</item>
+        <item>Bruce Banner</item>
+        <item>Natasha Romanoff</item>
+        <item>Carol Danvers</item>
+        <item>Wanda Maximoff</item>
+        <item>Vision</item>
+        <item>T\'challa</item>
+        <item>Stephen Strange</item>
+    </string-array>
+</resources>
